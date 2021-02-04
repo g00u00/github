@@ -1,4 +1,5 @@
 # github
+https://github.com/git-guides/
 https://git-scm.com
 https://git-scm.com/book/ru/v2
 https://github.com
@@ -7,7 +8,7 @@ https://githowto.com/ru?author=1
 
 Регистрация
 https://github.com
-g00u00 g00u00@outlook.com eH...
+g00u00 g00u00@outlook.com eH...41
 
 +++++++++++++++++++++++++++++
 На начальном этапе пропустить
@@ -109,7 +110,7 @@ git clone https://github.com/g00u00/g00u00.github.io.git
 cd g00u00.github.io/
 git config user.name "g00u00"
 git config user.email "g00u00@outlook.com"
-g00u00 g00u00@outlook.com eH...@
+g00u00 g00u00@outlook.com
 git config --list
 .vimrc в ~
 
