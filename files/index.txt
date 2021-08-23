@@ -1,7 +1,11 @@
+git init
+git config user.name "g00u00"
+git config user.email "g00u00@outlook.com"
 
+====================
 https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh
 Generating a new SSH key and adding it to the ssh-agent
-ssh-keygen -t rsa -b 4096 -C "name@mail.com"
+ssh-keygen -t rsa -b 4096 -C "name@outlook.com"
 Adding your SSH key to the ssh-agent
 Start the ssh-agent in the background
 eval $(ssh-agent -s)
