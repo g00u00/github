@@ -1,82 +1,162 @@
+git init
+git config user.name "g00u00"
+git config user.email "g00u00@outlook.com"
+git add file 
+git add --all
+git commit --m "first"
+git status
+git remote add origin git@github.com:g00u00/g06u28.git
+git branch -M main
+git push -u origin main
 
-<!DOCTYPE html>
-<html lang="ru">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Форматирование</title>
-</head>
-
-<body>
-    <h1 align="center">Форматирование текста</h1>
-
-    <p align="center">опробование1</p>
-
-    <p>опробование2<br>опробование3 </p>
-
-    <!-- 
-    <p>Пример закомментированного фрагмента </p>
-    -->
-
-    <h3 align="center">Представление заголовка</h3>
-
-    <p>
-        <font color="Blue" size=6 face="GothicG"> size=6, font - не рекомендуется</font>
-    </p>
-
-    <p>
-        <font size="+1" title="шрифт"> size="+1", font - не рекомендуется</font>
-    </p>
-
-    <p> C<sub>2</sub>H<sub>5</sub>OH или 3<sup>2</sup>=9</p>
-
-    <p><b><i><u> Опробование8 (bold, italic, underline) </u></i></b> </p>
-
-    <pre>
-    ________________________________________
-    |  10      12      13       14       55 |
-    |  изменений практически нет         5  |
-    ________________________________________
-    </pre>
-
-    <blockquote>
-        вставляем цитату c продолжением на следующей строке c продолжением на следующей строке вставляем цитату c
-        продолжением на следующей строке c продолжением на следующей строке
-    </blockquote>
-
-    <hr color="Red" size="10" width=200>
-
-    <p>
-    <ul title="Не упорядочные  списки">
-        <li>первая строка списка
-        <li>вторая строка списка
-    </ul>
-    </p>
+git init
+git config user.name "g00u00"
+git config user.email "g00u00@outlook.com"
+git add file 
+git add --all
+git commit --m "first"
+git status
+git remote add origin git@github.com:g00u00/g06u28.git
+git branch -M main
+git push -u origin main
 
 
-    <ol>
-        <li> 1-й элемент списка
-        <li> 2-й элемент списка
-        <li> 3-й элемент списка
-    </ol>
+====================
+https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh
+Generating a new SSH key and adding it to the ssh-agent
+ssh-keygen -t rsa -b 4096 -C "name@outlook.com"
+Adding your SSH key to the ssh-agent
+Start the ssh-agent in the background
+eval $(ssh-agent -s)
+Add your SSH private key to the ssh-agent
+ssh-add ~/.ssh/id_rsa
+Копируем ключ
+cat ~/.ssh/id_rsa.pub
+
+---------------------
+https://git-scm.com
+https://git-scm.com/book/ru/v2
+https://github.com
+https://pages.github.com
+https://githowto.com/ru?author=1
+
+Регистрация
+https://github.com
+g00u00 g00u00@outlook.com eH...
+
++++++++++++++++++++++++++++++
+На начальном этапе пропустить
+https://pages.github.com
+https://github.com/g00u00
+g00u00.github.io.git
+https://github.com/g00u00/g00u00.github.io.git
+++++++++++++++++++++++++++++++
+
+Создать
+tmp/index.txt
+с содержанием типа ...
+Используем utf-8
+2020-01-01 15:15
+commit ...
+
+--------------------
+На 37.139.11.127
+git init
+git config user.name "g00u00"
+git config user.email "g00u00@outlook.com"
+g00u00 g00u00@outlook.com eH...
+git config --list
+git status
+git add --all
+git commit -a 
+git commit -am'message'
+git status
+
+git remote add origin https://github.com/g00u00/g00u00.github.io.git
+git remote remove origin
+git pull origin master
+ls -lAF tmp
+cat tmp/index.txt
+
+git push -u origin master  
+или 
+git push --set-upstream  origin master
+
+.ignore
+
+git status 
+git add --all
+git commit --all -m "--all"
+git push
+
+git branch
+vim  ....
+git checkout -b new_branch
+git checkout master
+git branch -D new_branch
+git commit -a
+git diff master
+git merge master
+git checkout master
+vim 
+
+git push --set-upstream origin new_branch
+git push -u origin new_branch
 
 
-    <!--
-    Задание 
-    Каждый каждый пункт задания - отдельным абзацем 
-    Закоментированное задание оставить
-    
-    В ~/public_html/educion/formatirovanie: 
-    Создать классическую страницу, содержащую основные структурные элементы head, tite, body
-    Опробование2 - поставить всплывающую подсказку "подсказка2"
-    Опробование6 разбить по 2-3 буквы  на красный-зеленый-голубой
-    Опробование8 клонировать 3 раза и показать построчно. Верхняя строка - исходная. Средняя - курсив с подчеркиванием. Нижняя - шрифт увеличить на 3, цвет красный
-    Создать вложенные ненумерованные списки. На первом уровне 3 элемента, на втором уровне - два элемента. 1-й уровень - диск, 2-й уровень - квадрат
-    Создать вложенные нумерованные списки. На первом уровне два элемента, на втором -три.  1-й уровень - римские, 2-й -арабские - отсчет с 3    
-    Горизонтальную линию - в конце страницы, выравнивание-  по центру, высота 20 пикселей, 45% общей ширины
-    -->
+--------------
+37... и затем на GitHab
+vim
+git status 
+git diff
+git log --pretty=oneline
+git add .
+git status 
+git add --all
+git commit --all -m "--all"
+git status
+git diff
+git commit -m "Изменение" -m "Описание изменения"
+
+git reset
+git status
+git add .
+git log
+git reset ******
+git reset -- hard ******
 
 
-</html>
+git restore <file>..." to discard changes in working directory
+git revert HEAD
+git diff
+git push -f - если на ГИТХабе файл был удален из домашенго раздела
+
+-----------
+с ГИТХаба
+git fetch и затем git merge
+git status
+или 
+git pull
+
+----------------------------
+На локальном  компьютере
+git clone https://github.com/g00u00/g00u00.github.io.git
+cd g00u00.github.io/
+git config user.name "g00u00"
+git config user.email "g00u00@outlook.com"
+g00u00 g00u00@outlook.com eH...@
+git config --list
+.vimrc в ~
+
+-----------------------
+windows 7
+git config --global core.editor "code --wait" - поставить редактор для commit по умолчанию
+
+Панель управления\Все элементы панели управления\Диспетчер учетных данных
+Панель управления\Учетные записи пользователей \Администрирование учетных записей
+
+В Windows 10:
+Control Panel\All Control Panel Items\Credential Manager
+Выбрать Windows Credential
+Удалить или изменить соответствующий git:http ... 
+https://ru.stackoverflow.com/questions/585421/%D0%9A%D0%B0%D0%BA-%D1%81%D0%BC%D0%B5%D0%BD%D0%B8%D1%82%D1%8C-%D0%B8%D0%BB%D0%B8-%D1%83%D0%B4%D0%B0%D0%BB%D0%B8%D1%82%D1%8C-%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8F-%D0%B2-git-bash
