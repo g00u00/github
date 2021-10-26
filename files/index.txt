@@ -35,6 +35,12 @@ git add file
 git add --all
 git commit -m "first"
 git status
+git branch
+git branch main
+git checkout main
+git merge master
+git branch --merged
+
 git remote add origin git@github.com:g00u00/g06u28.git
 git remote remove origin
 git branch -M main
@@ -77,9 +83,9 @@ git pull origin master
 ls -lAF tmp
 cat tmp/index.txt
 
-git push -u origin master  
+git push -u origin main  
 или 
-git push --set-upstream  origin master
+git push --set-upstream  origin main
 
 .ignore
 
