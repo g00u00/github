@@ -46,6 +46,7 @@ git branch
 git remote add origin git@github.com:g00u00/g06u28.git
 git remote remove origin
 git branch -M main
+git pull --allow-unrelated-histories origin main
 git push -u origin main
 
 
