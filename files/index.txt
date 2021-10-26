@@ -28,6 +28,8 @@ ssh-add .ssh/name
 cat ~/.ssh/id_rsa.pub
 cat .ssh/name.pub
 
+cat > .gitignore
+.ssh/
 
 ===============
 
