@@ -36,6 +36,7 @@ git add --all
 git commit -m "first"
 git status
 git remote add origin git@github.com:g00u00/g06u28.git
+git remote remove origin
 git branch -M main
 git push -u origin main
 
