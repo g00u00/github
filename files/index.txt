@@ -8,20 +8,6 @@ https://githowto.com/ru?author=1
 https://github.com
 g00u00 g00u00@outlook.com eH...
 
-===============
-
-git init
-git config user.name "g00u00"
-git config user.email "g00u00@outlook.com"
-git config --list
-git add file 
-git add --all
-git commit -m "first"
-git status
-git remote add origin git@github.com:g00u00/g06u28.git
-git branch -M main
-git push -u origin main
-
 ====================
 
 https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh
@@ -37,6 +23,22 @@ ssh-add ~/.ssh/id_rsa
 
 Копируем ключ
 cat ~/.ssh/id_rsa.pub
+
+
+===============
+
+git init
+git config user.name "g00u00"
+git config user.email "g00u00@outlook.com"
+git config --list
+git add file 
+git add --all
+git commit -m "first"
+git status
+git remote add origin git@github.com:g00u00/g06u28.git
+git branch -M main
+git push -u origin main
+
 
 ====================
 
