@@ -29,7 +29,9 @@ cat ~/.ssh/id_rsa.pub
 cat .ssh/name.pub
 
 cat > .ssh/.gitignore
-.ssh/
+.ssh/*
+.ssh/*.*
+git status --ignored
 
 ===============
 
