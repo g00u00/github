@@ -49,6 +49,7 @@ g00u00.github.io.git
 https://github.com/g00u00/g00u00.github.io.git
 ++++++++++++++++++++++++++++++
 
+
 Создать
 tmp/index.txt
 с содержанием типа ...
