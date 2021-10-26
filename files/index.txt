@@ -28,8 +28,8 @@ cat ~/.ssh/id_rsa.pub
 ===============
 
 git init
-git config user.name "g00u00"
-git config user.email "g00u00@outlook.com"
+git config user.name "name"
+git config user.email "name@outlook.com"
 git config --list
 git add file 
 git add --all
