@@ -1,4 +1,3 @@
-
 rm -rf .git
 git init
 git remote add origin git@github.com:g00u00/g01u01.git
@@ -9,8 +8,8 @@ eval $(ssh-agent -s)
 ssh-add  ~/.ssh/id_rsa
 cat  ~/.ssh/id_rsa.pub
 echo "ssh -T git@github.com"
-==================
 
+==================
 git pull origin main
 
 git add .
