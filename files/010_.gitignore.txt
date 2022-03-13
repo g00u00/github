@@ -1,3 +1,4 @@
+Сначала на GitHub
 cat > .ssh/.gitignore
 /.ssh/*
 /.idea/*
