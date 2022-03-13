@@ -1,6 +1,7 @@
 rm -rf .git
 git init
 git remote add origin git@github.com:g00u00/g01u01.git
+.gitignore
 git pull origin main
 
 ==================
