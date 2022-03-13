@@ -1,5 +1,5 @@
 cat > .ssh/.gitignore
- id_rsa
- id_rsa.pub
 /.ssh/*
 /.idea/*
+id_rsa
+id_rsa.pub
