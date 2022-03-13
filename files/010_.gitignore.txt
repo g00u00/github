@@ -1,8 +1,5 @@
-cat >  .ssh/.gitignore
+cat > .ssh/.gitignore
  id_rsa
  id_rsa.pub
-
-------------
-cat > .gitignore
 /.ssh/*
 /.idea/*
