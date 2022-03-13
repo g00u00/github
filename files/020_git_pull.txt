@@ -1,6 +1,7 @@
 rm -rf .git
 git init
 git remote add origin git@github.com:g00u00/g01u01.git
+git pull origin main
 
 ==================
 ssh-keygen -t rsa -b 4096 -C "g00u00@outlook.com"
