@@ -24,5 +24,5 @@ git config user.name "g00u00"
 git config user.email "g00u00@outlook.com"
 git config --list
 
-git commit -m "first"
+git commit -m "000"
 git push --set-upstream origin main
