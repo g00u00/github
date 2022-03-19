@@ -1,5 +1,5 @@
 Сначала на GitHub
-cat > .ssh/.gitignore
+cat > .gitignore
 /.ssh/*
 /.idea/*
 id_rsa
