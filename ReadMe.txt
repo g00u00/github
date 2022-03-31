@@ -14,7 +14,7 @@ eval $(ssh-agent -s)
 ssh-add  ~/.ssh/id_rsa
 https://github.com/settings/keys
 cat  ~/.ssh/id_rsa.pub
-echo "ssh -T git@github.com"
+ssh -T git@github.com
 
 
 ==================
