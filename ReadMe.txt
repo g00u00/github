@@ -21,7 +21,7 @@ ssh -T git@github.com
 ==================
 rm -rf .git
 git init
-git remote add origin git@github.com:g00u00/name.git
+git remote add origin git@github.com:g00u00/github.git
 git pull origin main
 
 ==================
