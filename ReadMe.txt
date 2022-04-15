@@ -30,8 +30,10 @@ git add .
 git status
 git status --ignored
 
+git checkout
 git branch
 git branch -M master main
+
 
 git config user.name "g00u00"
 git config user.email "g00u00@outlook.com"
