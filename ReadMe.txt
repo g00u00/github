@@ -40,4 +40,5 @@ git config user.email "g00u00@outlook.com"
 git config --list
 
 git commit -m "000"
+git show 2bc5c8c3ac844f54b972bfa747678562712decf4
 git push --set-upstream origin main
