@@ -3,6 +3,7 @@ https://git-scm.com/book/ru/v2
 https://github.com
 https://pages.github.com
 https://githowto.com/ru?author=1
+https://pingvinus.ru/git/
 
 Регистрация
 https://github.com
