@@ -6,6 +6,7 @@ cat > .gitignore
 /venv/*
 id_rsa
 id_rsa.pub
+.viminfo
 
 ==================
 В домашнем разделе
