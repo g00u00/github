@@ -7,6 +7,9 @@ cat > .gitignore
 id_rsa
 id_rsa.pub
 .viminfo
+----------
+git rm  -r .cache/*  --cache
+
 
 ==================
 В домашнем разделе
