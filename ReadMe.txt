@@ -7,6 +7,7 @@ cat > .gitignore
 id_rsa
 id_rsa.pub
 .viminfo
+.bash_history
 ----------
 git rm  -r .cache/*  --cache
 
