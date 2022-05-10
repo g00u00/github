@@ -3,6 +3,7 @@
 cat > .gitignore
 /.ssh/*
 /.idea/*
+*/__pycache__/*
 /venv/*
 id_rsa
 id_rsa.pub
