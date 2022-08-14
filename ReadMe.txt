@@ -84,10 +84,11 @@ ufw disable
 sudo apt-get update && sudo apt-get install yarn
 yarn install
 yarn start
+yarn add react-router-dom
 
 yarn build
-snap install serve
-yarn global add serve
+su npm install -g serve
+su yarn global add serve
 serve -s build
 
 
