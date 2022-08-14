@@ -53,4 +53,15 @@ git show 2bc5c8c3ac844f54b972bfa747678562712decf4  - хеш сумма
 git push --set-upstream origin main
 
 ======================
+rm -rf *;
+rm -rf .*;
+git init;
+git config user.name "g00u00";
+git config user.email "g00u00@outlook.com";
+git branch -M main;
+git remote add origin git@github.com:g00u00/main_tsx.git;
+git pull origin main;
+yarn init;
+yarn start;
+
 git checkout 4d01e010e068910866b4784fd60906f831bc3cbb  -- src/react-app-env.d.ts
