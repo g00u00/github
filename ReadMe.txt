@@ -54,15 +54,35 @@ git push --set-upstream origin main
 git checkout 4d01e010e068910866b4784fd60906f831bc3cbb  -- src/react-app-env.d.ts
 
 ======================
+
 rm -rf *;
 rm -rf .*;
+----------
+cat > init.sh
+----------
+rm -rf .git;
 git init;
+ls -lAF;
 git config user.name "g00u00";
 git config user.email "g00u00@outlook.com";
 git branch -M main;
-git remote add origin git@github.com:g00u00/main_tsx.git;
+git branch;
+git remote add origin git@github.com:g00u00/tmp.git;
 git pull origin main;
-yarn init;
-yarn start;
+git status;
+git log;
+ls -lAF;
+git config --list;
+
+
+cat > push.sh
+----------
+git add .;
+git status;
+git status --ignored;
+git commit -m "000";
+git log;
+git push --set-upstream origin main;
+
 
 
