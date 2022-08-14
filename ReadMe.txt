@@ -74,6 +74,8 @@ git log;
 ls -lAF;
 git config --list;
 
+yarn install
+yarn start
 
 cat > push.sh
 ----------
