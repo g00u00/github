@@ -78,9 +78,18 @@ git config --list;
 rm package-lock.json
 
 
+ufw status verbose
+ufw disable
 
+sudo apt-get update && sudo apt-get install yarn
 yarn install
 yarn start
+
+yarn build
+snap install serve
+yarn global add serve
+serve -s build
+
 
 cat > push.sh
 ----------
