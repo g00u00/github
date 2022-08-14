@@ -54,11 +54,12 @@ git push --set-upstream origin main
 git checkout 4d01e010e068910866b4784fd60906f831bc3cbb  -- src/react-app-env.d.ts
 
 ======================
+apt-get update;
 
 rm -rf *;
 rm -rf .*;
 ----------
-cat > init.sh
+cat > pull.sh
 ----------
 rm -rf .git;
 git init;
