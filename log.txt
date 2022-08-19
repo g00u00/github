@@ -1,5 +1,5 @@
 
-
+git reflog
 git log --patch
 git diff
 git log -L1,3:a.txt
