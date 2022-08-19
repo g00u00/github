@@ -7,6 +7,7 @@ git config user.email "g00u00@outlook.com";
 git branch -M main;
 git branch;
 git remote add origin git@github.com:g00u00/github.git;
+git remote add upstream git@github.com:g00u00/github.git;
 git pull origin main;
 ls -lAF;
 git status;
@@ -18,3 +19,6 @@ git commit -m "000"
 git log
 git show 2bc5c8c3ac844f54b972bfa747678562712decf4
 git push --set-upstream origin main
+git push --set-upstream <remote> <branch>
+git push -u <remote> <branch>
+git push -u origin branch
