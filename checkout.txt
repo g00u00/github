@@ -4,6 +4,7 @@ git log --oneline branch
 git cat-file -p 73585b1
 git checkout 7a904d5151a8e40de3e8970056afd510beea4a2a -- .gitignore
 git checkout 7a904d5151a8e40de3e8970056afd510beea4a2a -- br_main_01.txt
+git checkout 7a904d5151a8e40de3e8970056afd510beea4a2a -b new_branch
 git status
 git branch
 git commit -m'checkout'
