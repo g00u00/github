@@ -2,9 +2,11 @@ git log --oneline --graph --all
 git cat-file -p 4d08624
 git show 
 git status
+git reset HEAD~2
 git log --oneline --graph --all
 git reset --soft f74b41c
 git log --oneline --graph --all
 git commit -m'reset-soft_new'
+git reflog 
 git log --oneline --graph --all
 git show 0cd69fc a.txt
