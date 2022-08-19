@@ -1,5 +1,5 @@
 git rebase -m br01
-vim  br01.txt
+vim  br01.txt    !!!!
 git add br01.txt
 git rebase --continue
 git log --oneline --all --graph
