@@ -1,0 +1,25 @@
+   60  git init
+   61  git add .
+   62  git status
+   63  rm -rf .git
+   64  git init
+   65  git add .
+   82  git log --oneline  --graph --all
+   98  git checkout e3f9c14cbf6c039b88db951c7b8c14eb6b666eb6 -- .gitignore
+   99  git status
+  100  git diff
+  101* git diff @
+  102  git status
+  108  git show adca1b94db1afb76f43b5a23b5f4cf2dad252d04
+  109  git show adca1b94db1afb76f43b5a23b5f4cf2dad252d04 .gitignore
+  124  git reset @ --hard
+  129  git log
+  130  git reset 5138a3fa44b010b27eeb50d3a3177807a87b8539 --hard
+  131  git status
+  132  git show e3f9c14cbf6c039b88db951c7b8c14eb6b666eb6
+  134  git checkout 5138a3fa44b010b27eeb50d3a3177807a87b8539 -- .gitignore
+  
+    @
+	@^1  @^2  - ширина
+	@^1~1  @^2~1 - глубина
+	git rev-parse 8d8a45b~2
