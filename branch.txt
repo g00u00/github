@@ -1,5 +1,6 @@
-git branch branch_01
 git branch
+git branch -vv
+git branch branch_01
 ls -lAF .git/refs/heads/
 git log --oneline --graph --all
 git checkout branch_01
