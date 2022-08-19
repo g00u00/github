@@ -5,3 +5,6 @@ git rebase --continue
 git log --oneline --all --graph
 git commit -am 'git rebase -m br01'
 git status
+
+
+git rebase -i HEAD~3 - удаляем комит
