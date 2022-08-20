@@ -1,3 +1,5 @@
 git checkout 1d24115
 git log --oneline --graph --all
 git diff 454050a
+
+git reflog
