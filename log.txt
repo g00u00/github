@@ -1,7 +1,8 @@
 
-git reflog
-git log --patch
-git diff
 git log -L1,3:a.txt
 git log --patch 454050a479cc1acf900c99ec896427e8d881a4d1
+git log --patch
+git log --oneline --all --graph
 
+git reflog
+git diff
