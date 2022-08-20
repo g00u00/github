@@ -1,3 +1,5 @@
+fit reset --hard 4d08624
+
 git log --oneline --graph --all
 git cat-file -p 4d08624
 git show 
