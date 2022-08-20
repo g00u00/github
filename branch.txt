@@ -1,11 +1,12 @@
 git branch
 git branch -vv
 git branch branch_01
+git branch -M branch_01
 ls -lAF .git/refs/heads/
 git log --oneline --graph --all
 git checkout branch_01
 git log --oneline --graph --all
-git commit -am'branch_01.txt'
+git commit -am'file.txt strings...'
 git log 43766cf
 git cat-file -p 43766cfe1b46700a7b1265cb1efbc907406bb9a8
 git diff @
