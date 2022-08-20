@@ -1,9 +1,9 @@
-git rebase -m br01
+git rebase -m branch_01
 vim  br01.txt    !!!!
-git add br01.txt
+git add file.txt
 git rebase --continue
 git log --oneline --all --graph
-git commit -am 'git rebase -m br01'
+git commit -am 'rebase  branch file'
 git status
 
 
