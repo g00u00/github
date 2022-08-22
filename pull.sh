@@ -16,10 +16,13 @@ git pull origin main;
 git status;
 git status --ignored;
 ls -lAF;
-git log -n2;
+git log -n2 --oneline --graph --all;
 rm pull.sh;
 git add pull.sh;
 git status --ignored;
 git status;
 git commit -m'rm pull.sh';
 git status;
+#git reflog --all
+#git cat-file -p 546fcd1
+#rm -rf .git;
