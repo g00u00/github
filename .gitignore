@@ -7,6 +7,8 @@ id_rsa
 id_rsa.pub
 .viminfo
 .bash_history
+pull.sh
+push.sh
 
 
 # dependencies
