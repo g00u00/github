@@ -21,9 +21,9 @@ rm pull.sh;
 git status;
 git add pull.sh;
 git commit -m'rm pull.sh';
-git log -n2 --oneline --graph --all;
+#git log -n2 --oneline --graph --all;
 git status;
 git status --ignored;
-#git reflog --all
+git reflog --all
 #git cat-file -p 546fcd1
 #rm -rf .git;
