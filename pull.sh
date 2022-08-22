@@ -10,10 +10,16 @@ git config user.name "g00u00";
 git config user.email "g00u00@outlook.com";
 git branch -M main;
 git branch;
-#git remote add origin git@github.com:g00u00/tmp.git;
-git config --list;
+#git remote add origin git@github.com:g00u00/github.git;
+#git config --list;
 git pull origin main;
 git status;
-git status --ignored
+git status --ignored;
 ls -lAF;
-git log -n2
+git log -n2;
+rm pull.sh;
+git add pull.sh;
+git status --ignored;
+git status;
+git commit -m'rm pull.sh';
+git status;
