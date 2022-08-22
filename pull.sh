@@ -18,7 +18,6 @@ git status;
 git status --ignored;
 ls -lAF;
 git log -n2 --oneline --graph --all;
-#rm pull.sh;
 git status;
 git add .;
 git status;
