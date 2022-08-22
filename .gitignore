@@ -7,9 +7,8 @@ id_rsa
 id_rsa.pub
 .viminfo
 .bash_history
-pull.sh
-push.sh
-
+./pull.sh
+./ls push.sh
 
 # dependencies
 /node_modules
