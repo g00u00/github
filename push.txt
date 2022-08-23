@@ -13,9 +13,10 @@ echo ' '
 echo ' git status:'
 git status;
 echo ' '
-echo ''git status --ignored:'
+echo 'git status --ignored:'
 git status --ignored;
 git log -n2;
 #git cat-file -p  20dc015254b71088369f23244568bfb2c42c54bf;
 git push --set-upstream origin main;
 #git push
+
