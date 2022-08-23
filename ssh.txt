@@ -1,0 +1,9 @@
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh
+В домашнем разделе...
+==================
+ssh-keygen -t rsa -b 4096 -C "g00u00@outlook.com"
+eval $(ssh-agent -s)
+ssh-add  ~/.ssh/id_rsa
+https://github.com/settings/keys
+cat  ~/.ssh/id_rsa.pub
+ssh -T git@github.com
