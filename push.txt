@@ -1,0 +1,21 @@
+git pull origin main;
+git status;
+
+echo "# a" >> README.tmp;
+cat README.tmp;
+git status;
+git add .;
+git status;
+git status --ignored;
+git commit -m'add README.tmp';
+
+echo ' '
+echo ' git status:'
+git status;
+echo ' '
+echo ''git status --ignored:'
+git status --ignored;
+git log -n2;
+#git cat-file -p  20dc015254b71088369f23244568bfb2c42c54bf;
+git push --set-upstream origin main;
+#git push
