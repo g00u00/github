@@ -7,3 +7,4 @@ ssh-add  ~/.ssh/id_rsa
 https://github.com/settings/keys
 cat  ~/.ssh/id_rsa.pub
 ssh -T git@github.com
+Проверяем отсутствие ключей в репозиториях а удаленном сервере
